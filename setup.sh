@@ -16,10 +16,11 @@ sudo apt-get install -y curl
 wget https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh 
 sudo sh install.sh
 
+#The NVM setup is now done in buildscripts/stanford_dev_env.sh
 # Load nvm and install latest production node
-source $HOME/.nvm/nvm.sh
-nvm install v0.10.29
-nvm use v0.10.29
+#source $HOME/.nvm/nvm.sh
+#nvm install v0.10.29
+#nvm use v0.10.29
 
 
 # Install rlwrap to provide libreadline features with node
