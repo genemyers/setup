@@ -12,11 +12,13 @@
 
 ##### WAIT- SHOULD NOT NEED N and NVM !!!!!!!!!!
 
+
 #The NVM setup is now done in buildscripts/stanford_dev_env.sh
 # Load nvm and install latest production node
 #source $HOME/.nvm/nvm.sh
 #nvm install v0.10.29
 #nvm use v0.10.29
+
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
